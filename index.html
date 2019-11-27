@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Landing Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>FunnelHacking LIVE 2019</h1>
+					<!-- video -->
+					<div class="wistia_responsive_padding" style="padding:45.0% 0 0 0;position:relative;">
+						<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+							<iframe src="https://fast.wistia.net/embed/iframe/qtwj7sr2zx?videoFoam=true" title="FunnelHacking Live 2019 Video" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
+						</div>
+					</div>
+					<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+				</div>
+			</section>
+			
+			<!-- Section IMG -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>INSERT YOUR TITLE</h2>
+						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+						<a href="" class="button primary large fit">CLICK HERE TO WATCH THE DOCUMENTARY</a>
+					</header>
+
+					<header class="special">
+						<h2>Sem turpis amet semper</h2>
+						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+					</header>
+
+					<div class="highlights">
+						<section>
+							<div class="content">
+								<header>
+									<div class="modal-imagen">
+										<img class="imganima" style="width: 250px;" src="images/bg.jpg" alt="">
+									</div>
+									<h3>Interdum gravida</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<div class="modal-imagen">
+										<img class="imganima" style="width: 250px;" src="images/bg.jpg" alt="">
+									</div>
+									<h3>Faucibus consequat</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<div class="modal-imagen">
+										<img class="imganima" style="width: 250px;" src="images/bg.jpg" alt="">
+									</div>
+									<h3>Accumsan viverra</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+					</div>
+					<a href="" class="button primary large fit">Submit</a>
+				</div>
+			</section>
+
+		<!-- Thanks -->
+			<section id="cta" class="wrapper">
+				<div class="inner">
+					<h2>THANKS</h2>
+					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi nteger.</p>
+				</div>
+			</section>
+
+		
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						Copyright &copy; Company
+					</div>
+				</div>
+			</footer>
+
+		<!-- Modal -->
+
+			<!-- <script>
+				$( document ).ready(function() {
+    				$('#myModal').modal('show')
+				});
+			</script> -->
+
+		<!-- MODAL IMAGEN EJECUTION -->
+
+
+			<script>
+				document.querySelectorAll(".modal-imagen img").forEach(el=>{
+					el.addEventListener("click",function(ev){
+						ev.stopPropagation();
+						this.parentNode.classList.add("active");
+					})
+				});
+
+				document.querySelectorAll(".modal-imagen").forEach(el=>{
+					el.addEventListener("click",function(ev){
+						this.classList.remove("active");
+					})
+				});
+			</script>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
